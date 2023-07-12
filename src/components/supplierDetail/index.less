@@ -1,0 +1,107 @@
+.supplier-detail-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .header-box {
+        width: 100%;
+        height: 100vh;
+        background-image: url('http://rxebx5s7b.bkt.clouddn.com/background.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        .box1 {
+            width: 100%;
+            height: 100%;
+            background: transparent;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .box1-title,.box1-name,.box1-content {
+                text-align: center;
+                width: 80%;
+                font-size: 24px;
+                color: #000;
+            }
+            .box1-title {
+                margin-top: 8%;
+                font-size: 32px;
+            }
+            .box1-name {
+                margin-top: 2%;
+                font-size: 36px;
+            }
+            .box1-content {
+                margin-top: 2%;
+            }
+        }
+    }
+    .content-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .content-box-title {
+            text-align: center;
+            margin-top: 5%;
+            width: 10%;
+            font-size: 24px;
+            padding-bottom: 16px;
+            border-bottom: 3px solid #F4AB4C;
+        }
+        .product-box {
+            display: flex;
+            gap: 64px;
+            img {
+                margin-top: 64px;
+                margin-bottom: 64px;
+                border-radius: 5px;
+                width: 128px;
+                height: 128px;
+            }
+        }
+        .code-box {
+            margin-top: 32px;
+            margin-bottom: 64px;
+            display: flex;
+            gap: 64px;
+            align-items: center;
+            .input-field {
+                width: 300px;
+            }
+            .submit {
+                width: 100px;
+                align-self: center;
+                background-color: #f5a338;
+                color: #fff;
+            }
+        }
+        .tips-box {
+            display: flex;
+            flex-direction: column;
+            .tips-content {
+                text-align: center;
+                font-size: 24px;
+                color: #6c6c6c;
+            }
+            .contack-box {
+                margin-top: 16px;
+                display: flex;
+                align-items: center;
+                gap: 64px;
+                font-size: 24px;
+                color: #6c6c6c;
+                margin-bottom: 64px;
+            }
+        }
+        .back {
+            position: fixed;
+            left: 2vw;
+            bottom: 2vh;
+            border-radius: 50%;
+            background-color: #e0e0e0;
+            cursor: pointer;
+            img {
+                width: 64px;
+                height: 64px;
+            }
+        }
+    }
+}

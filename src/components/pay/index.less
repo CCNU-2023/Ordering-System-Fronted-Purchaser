@@ -1,0 +1,68 @@
+.pay-wrapper {
+    margin: 0 auto;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    width: 72%;
+    height: 70vh;
+    background-color: #fff;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+    border-radius: 10px;
+    .price-box {
+        padding-top: 32px;
+        padding-left: 64px;
+        font-size: 32px;
+        color: #F4AB4C;
+        display: flex;
+        gap: 64px;
+        align-items: center;
+        .price-box-number {
+            color: #000;
+            font-size: 48px;
+        }
+    }
+    .choice-box {
+        padding-left: 64px;
+        padding-top: 32px;
+        display: flex;
+        flex-direction: column;
+        .choice-box-title {
+            font-size: 20px;
+        }
+        .choice-box-content {
+            display: flex;
+            gap: 32px;
+            .box {
+                margin-top: 32px;
+                display: flex;
+                align-items: center;
+                border: 1px solid #bbbbbb;
+                padding: 6px 8px;
+                border-radius: 5px;
+                background-color: #f9f9f9;
+                box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+                cursor: pointer;
+                .MuiRadio-colorSecondary.Mui-checked {
+                    color: #F4AB4C;
+                }
+                .pay-icon {
+                    width: 32px;
+                    height: 32px;
+                }
+                .box-content {
+                    margin-left: 16px;
+                    margin-right: 8px;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .pay-btn-box {
+        padding-left: 64px;
+        padding-top: 64px;
+        .pay-btn {
+            background-color: #F4AB4C;
+            color: #fff;
+        }
+    }
+}

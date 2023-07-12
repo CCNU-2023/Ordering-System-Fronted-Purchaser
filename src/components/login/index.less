@@ -1,0 +1,123 @@
+.login-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .header {
+        display: flex;
+        justify-content: center;
+        height: 70px;
+        width: 100%;
+        background-color: #fff !important;
+        img {
+            margin-left: 20px;
+            max-width: 180px;
+        }
+    }
+
+    .form-box {
+        width: 100%;
+        height: auto;
+        padding-bottom: 50px;
+        display: flex;
+        justify-content: flex-end;
+        background-image: url('http://rxebx5s7b.bkt.clouddn.com/intro.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        .form {
+            margin-top: 50px;
+            margin-right: 150px;
+            width: 300px;
+            height: 400px;
+            padding: 20px 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            background: rgba(233, 235, 236, 0.7);
+            background-attachment: fixed;
+            backdrop-filter: blur(20px);
+
+            .form-title {
+                margin-top: 16px;
+                margin-bottom: 16px;
+                text-align: center;
+                font-size: large;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+
+            .input-field {
+                input {
+                    height: 48px;
+                    padding: 0px 8px;
+                }
+            }
+
+            .tip {
+                align-self: flex-end;
+                font-size: 12px;
+                color: #F4AB4C;
+                cursor: pointer;
+            }
+            .btn-box {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                gap: 32px;
+                .login-btn {
+                    margin-left: 16px;
+                    margin-top: 16px;
+                    width: 100px;
+                    align-self: center;
+                    background-color: #f5a338;
+                    color: #fff;
+                }
+            }
+        }
+    }
+
+    .intro-box {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .intro-box-title {
+            margin-top: 32px;
+            margin-bottom: 40px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .service-list {
+            display: flex;
+            gap: 32px;
+            .service-card {
+                width: 16vw;
+                height: 230px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                .card-header {
+                    display: flex;
+                    justify-content: center;
+                    font-size: 18px;
+                    font-weight: bold;
+                    height: 30px;
+                    width: 14vw;
+                    gap: 16px;
+                    padding-bottom: 16px;
+                    border-bottom: 1px solid #d1d1cb;
+                    img {
+                        width: 30px;
+                    }
+                }
+                .card-content {
+                    width: 14vw;
+                    font-size: 20px;
+                    color: #888;
+                }
+            }
+        }
+    }
+}

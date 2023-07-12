@@ -1,0 +1,149 @@
+.goodsDetail-wrapper {
+    margin: 0 auto;
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+    width: 73%;
+    height: 80vh;
+    gap: 16px;
+    background-color: #fff;
+    border-radius: 10px;
+    
+    .photos-box {
+        width: 25%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+        .show-photo {
+            width: 100%;
+            height: 80%;
+            img {
+                border-radius: 10px;
+                width: 100%;
+                height: 90%;
+            }
+        }
+        .photo-items {
+            width: 100%;
+            display: flex;
+            gap: 12px;
+            .photo-box {
+                border: 1px solid #ededed;
+                border-radius: 10px;
+                cursor: pointer;
+                width: 30%;
+                height: auto;
+                img {
+                    border-radius: 10px;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .photo-active {
+                border: 2px solid #f5a338;
+            }
+        }
+    }
+
+    .info-box {
+        width: 30%;
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+        .cny-icon {
+            width: 20px;
+        }
+        .detail-info {
+            margin-top: 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            .description {
+                font-size: 12px;
+                color: #808080;
+            }
+        }
+    }
+
+    .order-box {
+        width: 25%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        align-self: flex-start;
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+        padding: 16px;
+        border-radius: 10px;
+        border: 1px solid #cfcfcf;
+        .amount-box {
+            align-self: center;
+            margin-top: 24px;
+            display: flex;
+            .count-btn {
+                background-color: #fff;
+                border-radius: 5px;
+                height: 32px;
+                padding: 0px 4px;
+            }
+
+            .input-field {
+                margin: 0 32px;
+                width: 64px;
+                input {
+                    text-align: center;
+                }
+                input::-webkit-outer-spin-button,
+                input::-webkit-inner-spin-button {
+                    -webkit-appearance: none;
+                }
+            }
+        }
+        .store-amount {
+            margin-top: 16px;
+            margin-bottom: 16px;
+            font-size: 12px;
+            color: #808080;
+        }
+
+        .price-box {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 16px;
+            .cny-icon {
+                align-self: flex-end;
+                width: 20px;
+            }
+            .price-box-name {
+                font-weight: bold;
+            }
+            .price {
+                display: flex;
+                align-items: center;
+                font-weight: bold;
+            }
+        }
+        .btn-box {
+            margin-top: 32px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+            .buy {
+                border-radius: 10px;
+                width: 80%;
+                background-color: #f5a338;
+            }
+            .add {
+                border-radius: 10px;
+                width: 80%;
+                background-color: #fff;
+            }
+        }
+    }
+}

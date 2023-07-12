@@ -1,0 +1,91 @@
+.market-wrapper {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .rank-box {
+        padding: 16px;
+        width: 73%;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        background-color: #feecd3;
+        border-radius: 10px;
+        .price,.sales {
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+    }
+    .goods-box {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6%;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        height: 60vh;
+        width: 75vw;
+        border-radius: 10px;
+        .card-box {
+            width: 320px;
+            margin-bottom: 16px;
+            .img-box {
+                width: 330px;
+                height: 280px;
+            }
+            .goods-content {
+                max-width: 320px;
+                height: 2em;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+            }
+            .card-action {
+                display: flex;
+                justify-content: center;
+                margin-top: 4px;
+                margin-bottom: 4px;
+                margin-left: 8px;
+                .total-price,.single-price {
+                    font-size: 12px;
+                    border-radius: 4px;
+                    padding: 2px 6px;
+                    cursor: default;
+                }
+
+                .MuiButtonBase-root {
+                    width: 32px;
+                    height: 32px;
+                }
+
+                .input-field {
+                    width: 32px;
+                    input {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+    .pagination {
+        margin: 32px 0;
+        align-self: flex-end;
+    }
+    .attention {
+        font-size: 24px;
+        align-self: center;
+        margin-top: 64px;
+    }
+    .back {
+        position: fixed;
+        left: 2vw;
+        bottom: 2vh;
+        border-radius: 50%;
+        background-color: #e0e0e0;
+        cursor: pointer;
+        img {
+            width: 64px;
+            height: 64px;
+        }
+    }
+}

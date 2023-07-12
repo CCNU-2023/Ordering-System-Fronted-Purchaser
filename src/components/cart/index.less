@@ -1,0 +1,106 @@
+.cart-wrapper {
+    padding-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff7ec;
+    .table-box {
+        display: flex;
+        flex-direction: column;
+        width: 72vw ;
+        min-height: 80vh;
+        margin-bottom: 32px;
+        border-radius: 10px;
+        box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 0px 1px 1px 0px rgba(0,0,0,0.14), 0px 1px 3px 0px rgba(0,0,0,0.12);
+        background-color: #fff;
+        .table-header {
+            margin-left: 5%;
+            margin-top: 32px;
+            padding-bottom: 16px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            .goods-title {
+                width: 24vw;
+            }
+            .amount-title,.price-title,.total-title,.operation-title {
+                width: 8vw;
+            }
+            .amount-title {
+                width: 8vw;
+                margin-right: 3vw;
+            }
+            .operation-title {
+                padding-left: 1vw;
+            }
+        }
+
+        .divider {
+            width: 90%;
+            height: 1px;
+            align-self: center;
+            background-color: #b9b9b9;
+        }
+
+        .table-body {
+            margin-top: 16px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            .row-box {
+                margin-top: 16px;
+                width: 100%;
+                .table-row {
+                    background-color: #e0e0e0;
+                    padding-top: 16px;
+                    padding-bottom: 16px;
+                    margin-left: 5%;
+                    width: 90%;
+                    display: flex;
+                    align-items: center;
+                    .image-content {
+                        width: 8vw;
+                    }
+                    .goods-content {
+                        margin-left: 2vw;
+                        width: 14vw;
+                    }
+                    .amount-content,.price-content,.total-content,.operation-content {
+                        width: 8vw;
+                    }
+                    .amount-content {
+                        width: 7vw;
+                        margin-right: 4vw;
+                    }
+                }
+            }
+            
+            .attention {
+                width: 100%;
+                text-align: center;
+                font-size: 24px;
+            }
+        }
+
+        .count-box {
+            margin-top: 16px;
+            margin-bottom: 16px;
+            padding-top: 16px;
+            border-top: 1px solid #b9b9b9;
+            width: 90%;
+            align-self: center;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 8px;
+            .number {
+                color: #FFA350;
+                margin-right: 32px;
+            }
+            .pay-btn {
+                background-color: #FFA350;
+                color: #fff;
+            }
+        }
+    }
+}
